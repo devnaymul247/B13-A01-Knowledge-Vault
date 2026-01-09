@@ -191,14 +191,14 @@ nav {
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 .brain-text-column {
-    padding: 0 20px 0 60px;
+    padding-right: 150px;
+    max-width: 700px;
     display: flex;
     flex-direction: column;
     gap: 16px;
-    max-width: 600px;
 }
 .brain-text-column h6 {
     font-size: 16px;
@@ -232,4 +232,36 @@ nav {
     font-weight: 500;
     line-height: 20px;
     color: #001931;
+}
+
+/* Call to action (cta) section styles */
+#cta {
+    background-color: #ffffff;
+    padding-bottom: 120px;
+}
+#cta .cta-container {
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 80px 40px;
+    background-color: #f7f6f2;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+#cta .cta-container h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #001931;
+    text-transform: capitalize;
+}
+#cta .cta-container p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #627382;
+    max-width: 600px;
 }
